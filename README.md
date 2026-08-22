@@ -1,95 +1,145 @@
-# LIOS — Living Intelligence Operating System
+# Living Intelligence
 
-LIOS is a small, dependency-light Python library for modeling how individuals,
-groups, communities, and institutions develop direction, trust, and shared
-understanding over time — with AI in a strictly **reflective**, non-authoritative
-role.
+> A continuously learning system that turns human experience and conversation into memory, insight, action, and learning.
 
-It is the code substrate for the *Living Intelligence Model*: a framework built
-around a Four-Layer System (Personal → Small-Group → Community → Societal), a
-Meeting model (contact, resolution, trust), a Knowledge Garden pipeline
-(Listening Post → Observatory → Knowledge Garden → Scenario Engine → Blink of
-Insight), and a hard rule that AI expands perception without ever being granted
-decision authority.
+## Project Overview
 
-LIOS exists to close the **Testing Gap**: frameworks that are fully designed
-but have no real field data behind them. It gives you a minimal, honest data
-model to log real Events, Claims, and Relationships as they happen, instead of
-only reasoning about them in the abstract.
+Living Intelligence explores how conversations can become a durable source of intelligence rather than disappearing when the conversation ends.
 
-## Core ideas
+The working cycle is:
 
-- **Entities** are people, crews, communities, or institutions — nodes at any
-  scale of the Four-Layer System.
-- **Contexts** situate everything: which Layer you're operating at, and which
-  epistemic mode you're in (Reality / Possibility / Decision).
-- **Events** are things that happened — a signal, a contact, a resolution, a
-  trust shift, a Disclosure Spiral stage transition.
-- **Claims** are assertions produced by a Knowledge Garden pass. Every claim
-  carries provenance and a confidence level. None are ground truth.
-- **Relationships** track trust and coordination between two entities — Weekly
-  Dyadic Practice, Exit-First Coordination, mentorship, crew membership.
-- **Goals** are directional intent, scoped to a time horizon (daily through
-  annual, matching the Garden System rhythms).
-- **Providers** are AI backends. The provider interface makes it structurally
-  impossible for a provider to return a directive — it can only return Claims,
-  each with confidence and provenance attached. This is "AI as Compass, Not
-  Controller" enforced in code, not just in prose.
-- **Navigation** runs the Listening Post → Observatory → Knowledge Garden →
-  Scenario Engine → Blink of Insight pipeline as an explicit, inspectable
-  sequence of Context transitions.
-- **Integration** is where cross-framework reconciliation happens: Four-Layer
-  System ↔ Post Nation ↔ Microsolidarity, and where a Context's epistemic mode
-  (Reality/Possibility/Decision) is resolved against its scale-layer, rather
-  than left as an open question.
-- **Provenance** enforces the verification principle: every Claim must be able
-  to answer "where did this come from and how confident should I be."
+**Experience → Conversation → Memory → Intelligence → Commitment → Relationship → Opportunity → Action → Learning**
 
-## Install
+The goal is not simply to record or summarize conversations. The goal is to preserve what matters, surface what is emerging, help people make sense of it, and return that learning to practice.
 
-```bash
-pip install -e .
+### Working Architecture
+
+```text
+Fieldy / conversation capture
+          ↓
+AI interpretation
+          ↓
+Memory + knowledge
+          ↓
+Conversation sensemaking
+          ↓
+Commitment / action
+          ↓
+New experience
+          ↺
 ```
 
-## Quickstart
+### Core Components
 
-```python
-from lios.models.entity import Entity, EntityType
-from lios.models.context import Context, Layer, EpistemicMode
-from lios.models.event import Event, EventType
-from lios.navigation import Navigator
+- **Conversation capture** — preserves lived experience and dialogue.
+- **AI interpretation** — identifies patterns, tensions, insights, commitments, questions, relationships, and opportunities.
+- **Knowledge layer** — preserves durable learning and connects it to what came before.
+- **Conversation facilitation** — uses the right intervention for what the conversation currently needs.
+- **Action systems** — turn insight and commitment into practice.
+- **Learning loop** — feeds the results of action back into future conversations.
 
-greg = Entity(name="Greg", type=EntityType.PERSON)
-ctx = Context(layer=Layer.PERSONAL, epistemic_mode=EpistemicMode.REALITY)
+## Conversation Facilitation
 
-nav = Navigator()
-nav.log(Event(type=EventType.SIGNAL, context_id=ctx.id, entities=[greg.id],
-               description="Noticed I keep re-deriving the same open question."))
-nav.advance(ctx)  # Listening Post -> Observatory
-print(ctx.lifecycle_stage)
+Living Intelligence does not impose a fixed facilitation framework. It treats Liberating Structures as diagnostic lenses.
+
+| If the conversation lacks... | Consider... |
+|---|---|
+| Perspective | **1-2-4-All** |
+| Purpose | **Nine Whys** |
+| A way through an apparent either/or | **Wicked Questions** |
+| Movement from insight to action | **What? So What? Now What?** |
+| Cognitive/conversational space | **Pause and create space** |
+
+The principle is:
+
+**Sense first → intervene appropriately → don't impose structure when it isn't needed.**
+
+## Setup Instructions
+
+This repository is intentionally lightweight at the beginning.
+
+### Prerequisites
+
+- Git
+- A GitHub repository
+- A Markdown-capable editor
+- An AI system capable of reading project files
+
+### Getting Started
+
+1. Create or clone the repository.
+2. Read this `README.md` to understand the purpose and current architecture.
+3. Read `skills/living-intelligence/SKILL.md` when using an AI agent to work within the practice.
+4. Add new discoveries to the appropriate knowledge or reference file.
+5. Commit meaningful changes so the evolution of the practice remains visible.
+
+### Suggested Repository Structure
+
+```text
+living-intelligence/
+├── README.md
+├── structures/
+├── knowledge/
+├── examples/
+└── skills/
+    └── living-intelligence/
+        ├── SKILL.md
+        └── references/
 ```
 
-## Repository layout
+## AI Integration
 
-```
-lios/
-├── docs/                 architecture, ontology, and context-lifecycle notes
-├── src/lios/
-│   ├── models/           Entity, Event, Claim, Relationship, Goal, Context
-│   ├── providers/        AI provider interface (reflective-only)
-│   ├── integration.py    cross-framework reconciliation
-│   ├── navigation.py     Listening Post -> ... -> Blink of Insight pipeline
-│   ├── provenance.py     verification principle
-│   └── storage.py        backend-agnostic persistence
-└── tests/
-```
+AI is not intended to replace human sensemaking. It participates in the learning loop.
+
+Potential AI responsibilities include:
+
+1. **Capture interpretation** — understand what happened in a conversation.
+2. **Extract intelligence** — identify patterns, tensions, decisions, commitments, questions, and opportunities.
+3. **Preserve memory** — distinguish durable learning from transient conversation.
+4. **Diagnose the conversation** — notice whether perspective, purpose, movement, or space is missing.
+5. **Select an appropriate intervention** — suggest a Liberating Structure only when the conversation calls for it.
+6. **Support action** — translate insight into concrete commitments and follow-up.
+7. **Learn from outcomes** — compare intended action with what actually happened.
+8. **Update the knowledge system** — preserve new learning so future conversations can benefit from it.
+
+### Human-in-the-loop principle
+
+AI should distinguish between:
+
+- what was explicitly said,
+- what can reasonably be inferred,
+- what remains uncertain,
+- and what requires human confirmation.
+
+Living Intelligence should become more capable through accumulated learning without quietly turning guesses into facts.
+
+## How Knowledge Evolves
+
+- `README.md` — the human-readable front door: what this project is and why it exists.
+- `SKILL.md` — the agent-facing operational layer: when and how an AI should use the practice.
+- `knowledge/` — discoveries that emerge through experience.
+- `structures/` — the conversational interventions themselves.
+- `examples/` — concrete demonstrations of the system in use.
+
+The repository is therefore not only documentation. It can become part of the learning loop.
+
+## Current Questions
+
+- What information should be preserved after a conversation?
+- What should AI extract automatically versus ask a human to confirm?
+- How should commitments, relationships, opportunities, and learning be represented?
+- What belongs in durable knowledge versus temporary context?
+- How should knowledge be connected across conversations?
+- How should the system know when to intervene and when to stay silent?
+- How should action outcomes feed back into future learning?
 
 ## Status
 
-Early scaffold. The ontology is stable; storage backends and provider
-implementations beyond the in-memory reference are not yet built out. This is
-intentional — the point is to get real field data flowing before over-building.
+**Early exploration / living draft**
 
-## License
+The architecture is intentionally allowed to change as the practice becomes clearer.
 
-See `LICENSE`.
+## Philosophy
+
+> The purpose is not to build a larger archive of conversations.  
+> The purpose is to create a system in which what people learn together can continue to inform what they do together.
