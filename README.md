@@ -90,5 +90,3 @@ The goal is therefore not to impose a perfect information architecture at the be
 The structure should emerge from the maturation of the knowledge it contains.
 
 The repository is expected to become more organized as the concepts within it become more stable. The current flat corpus is part of that evolutionary process.
-
-If you send me the actual full README, I can do the more valuable version: rewrite the whole thing around this architecture while preserving everything that is already good.
