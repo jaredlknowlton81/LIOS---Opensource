@@ -47,24 +47,6 @@ The Emerging Architecture
 The repository is moving toward the following architectural separation:
 
 LIOS
-│
-├── 01-architecture
-│   └── What LIOS is
-│
-├── 02-runtime
-│   └── How LIOS runs
-│
-├── 03-interfaces
-│   └── How LIOS interacts with the world
-│
-├── 04-applications
-│   └── Where LIOS is applied
-│
-├── 05-development
-│   └── How LIOS is built and evolved
-│
-└── research
-    └── What remains unresolved
 
 This structure is an emerging architectural model, not a claim that every boundary has been finalized.
 
