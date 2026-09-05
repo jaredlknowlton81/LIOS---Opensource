@@ -1,5 +1,3 @@
-Absolutely. The key change is to lead with the problem, the purpose, and the concrete outcome before introducing the architecture and its vocabulary. Someone should understand why this exists before they encounter terms like Fieldy, Ledger, or Hermes.
-
 Living Intelligence
 
 A human-centered system for thinking, learning, acting, and adapting
