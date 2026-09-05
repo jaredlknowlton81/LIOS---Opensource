@@ -1,32 +1,43 @@
 Living Intelligence
 
-A human-centered system for thinking, learning, acting, and adapting
+A continuously learning system that turns human experience and conversation into memory, insight, action, and learning.
 
-We are building a system to help people and communities make better decisions, turn those decisions into action, learn from what happens, and become more capable over time—without giving up human judgment, agency, or freedom.
+Living Intelligence is a human-centered architecture for connecting what happens, what people learn, what they decide, what they do, and what happens next.
 
-Today, knowledge, conversations, tools, AI systems, projects, relationships, and experiences are often disconnected.
+The goal is not to build a machine that thinks for people. The goal is to build systems that help people and communities think more clearly, act more effectively, learn continuously, and retain meaningful human judgment, agency, and freedom.
 
-A person may have a good idea in the morning, learn something important in the afternoon, make a decision at night, and then lose the context a week later.
+Today, conversations, experiences, knowledge, relationships, projects, tools, AI systems, and decisions are often disconnected. Important context disappears when a conversation ends, a project closes, or people move on.
 
-Organizations have the same problem at a larger scale.
+Living Intelligence explores a different possibility:
 
-They accumulate information but struggle to turn it into shared understanding, coordinated action, learning, and adaptation.
-
-Living Intelligence is an attempt to solve that problem.
-
-It is an architecture for connecting:
-
-what happens → what we learn → what we decide → what we do → what happens next.
-
-The goal is not to build a machine that thinks for people.
-
-The goal is to build systems that help people think more clearly, act more effectively, learn continuously, and remain free to decide what matters.
+Conversation and experience can become a durable source of intelligence that continues to inform future action.
 
 ⸻
 
-The Basic Idea
+The Core Loop
 
-Living Intelligence is a continuous learning loop:
+The working cycle is:
+
+Experience
+    ↓
+Conversation
+    ↓
+Memory
+    ↓
+Intelligence
+    ↓
+Commitment
+    ↓
+Relationship
+    ↓
+Opportunity
+    ↓
+Action
+    ↓
+Learning
+    ↺
+
+A more operational expression is:
 
 Experience → Understand → Imagine → Decide → Act → Observe → Learn → Adapt
 
@@ -36,147 +47,251 @@ We capture it.
 
 We preserve its context.
 
-We use intelligence and knowledge to understand it.
+We use intelligence and knowledge to understand what happened and what may be emerging.
 
-We consider possible responses.
+People consider possibilities and make decisions.
 
-A person or group makes a decision.
-
-The system helps turn that decision into action.
+Those decisions become commitments and action.
 
 We observe what actually happened.
 
-We record the result.
+The outcome becomes new learning.
 
-We learn from it.
-
-That learning changes how we perceive and respond to the next situation.
-
-The loop begins again.
+That learning changes how the system understands and responds to future experience.
 
 This is what makes the system living.
 
-It does not simply store information.
-
-It continuously connects experience, understanding, action, and learning.
+It does not simply store information. It continuously connects experience, understanding, action, and learning across time.
 
 ⸻
 
-What Is This For?
+What Living Intelligence Is For
 
-Living Intelligence is designed to help with problems such as:
+Living Intelligence is intended to help people and communities:
 
-* remembering what has happened and why
-* understanding complex situations
-* connecting scattered knowledge
-* identifying patterns that are difficult to see
-* exploring different possibilities
-* making better decisions
-* turning decisions into executable work
-* coordinating people, AI agents, and tools
-* learning from results
-* maintaining continuity across projects and time
-* developing individual and community capabilities
-* preserving human judgment and freedom
+* remember what has happened and why
+* preserve context across conversations and time
+* understand complex situations
+* connect scattered knowledge
+* identify patterns, tensions, and emerging possibilities
+* see multiple perspectives
+* make better decisions
+* turn decisions into executable work
+* coordinate people, AI agents, and tools
+* maintain continuity across projects and relationships
+* learn from outcomes rather than intentions alone
+* develop individual and collective capability
+* preserve human judgment, agency, and freedom
 
 In simple terms:
 
-It is a system for helping people turn experience into understanding, understanding into action, and action into learning.
+Turn experience into understanding, understanding into action, and action into learning.
 
 ⸻
 
-Why AI Alone Is Not Enough
+Architecture
 
-AI can generate ideas, analyze information, write, research, reason, and identify patterns.
+Living Intelligence is composed of complementary layers rather than a single application.
 
-But intelligence that only produces an answer is incomplete.
+                         LIVING INTELLIGENCE
+                                  │
+             ┌────────────────────┼────────────────────┐
+             │                    │                    │
+          EXPERIENCE          RELATIONSHIP        PURPOSE
+             │                    │                    │
+             └────────────────────┼────────────────────┘
+                                  ↓
+                         CONVERSATION / CAPTURE
+                                  │
+                              Fieldy
+                                  ↓
+                           INTERPRETATION
+                                  │
+                                  ↓
+                         LIOS / LEDGER / CONTEXT
+                                  │
+                    ┌─────────────┼─────────────┐
+                    ↓             ↓             ↓
+                  EVENTS       CLAIMS       RELATIONSHIPS
+                    │             │             │
+                    └─────────────┼─────────────┘
+                                  ↓
+                               MEMORY
+                                  │
+                                  ↓
+                            AI SENSEMAKING
+                                  │
+                                  ↓
+                       INSIGHT / POSSIBILITIES
+                                  │
+                                  ↓
+                           HUMAN DECISION
+                                  │
+                                  ↓
+                            COMMITMENT
+                                  │
+                                  ↓
+                              HERMES
+                                  │
+                                  ↓
+                         AGENTS + TOOLS
+                                  │
+                                  ↓
+                               ACTION
+                                  │
+                                  ↓
+                            VERIFICATION
+                                  │
+                                  ↓
+                              OUTCOME
+                                  │
+                                  ↓
+                              LEARNING
+                                  │
+                                  └──────────────→ MEMORY
 
-A useful system also needs to know:
+The boundaries are intentional:
 
-* What happened before?
-* Who is involved?
-* What are we trying to accomplish?
-* What has already been decided?
-* What relationships matter?
-* What resources are available?
-* What happened after the previous decision?
-* What should happen next?
-* Did the action actually work?
-
-That requires more than an AI model.
-
-It requires an environment in which intelligence can operate over time.
-
-That is what this architecture provides.
+* Fieldy captures experience.
+* LIOS provides an operational model for entities, relationships, events, claims, goals, and context.
+* The Ledger preserves persistent relational context and memory.
+* AI provides cognitive capabilities and sensemaking.
+* Living Intelligence describes the larger learning practice and loop.
+* Hermes provides runtime coordination between intelligence and action.
+* Agents and tools provide specialized capabilities.
+* Verification distinguishes intended results from actual outcomes.
+* Feedback converts outcomes into learning.
 
 ⸻
 
-The Architecture
+Conversation Is a First-Class Input
 
-The system has several complementary parts.
+Conversation is not merely a user interface to Living Intelligence.
 
-1. People
+It is one of the places where experience becomes meaning.
 
-People provide:
+A conversation can contain:
 
-* purpose
-* values
-* judgment
-* responsibility
-* creativity
-* relationships
-* decisions
-
-Humans remain the ultimate source of purpose and accountability.
-
-The system exists to increase human capability, not replace human agency.
-
-⸻
-
-2. Experience
-
-The real world continuously produces events:
-
-* conversations
 * observations
+* interpretations
+* questions
+* tensions
 * decisions
-* meetings
-* experiments
-* successes
-* failures
-* discoveries
-* changes
+* commitments
 * relationships
-* project outcomes
+* opportunities
+* uncertainty
+* emerging knowledge
 
-These experiences are the raw material of learning.
+The system therefore asks not only:
+
+What was said?
+
+but also:
+
+What happened?
+
+What matters?
+
+What changed?
+
+What is becoming clear?
+
+What remains uncertain?
+
+What was decided?
+
+What should be remembered?
+
+What happens next?
 
 ⸻
 
-3. Fieldy — Capture
+Conversation Facilitation
 
-Fieldy captures experience.
+Living Intelligence does not impose a fixed facilitation framework.
 
-It provides a way to bring observations, interactions, events, and other real-world experiences into the system.
+Liberating Structures can instead be treated as diagnostic lenses and available interventions.
 
-Think of it as the system’s sensory and experience-capture layer.
+If the conversation lacks…	Consider…
+Perspective	1-2-4-All
+Purpose	Nine Whys
+A way through an apparent either/or	Wicked Questions
+Movement from insight to action	What? So What? Now What?
+Cognitive or conversational space	Pause and create space
 
-Without capture, important experience disappears.
+The governing principle is:
+
+Sense first
+    ↓
+Identify what is missing
+    ↓
+Intervene appropriately
+    ↓
+Return to sensing
+
+And sometimes:
+
+Nothing is missing
+    ↓
+Do not intervene
+
+The intelligence is not the structure. The structure is an intervention available to the intelligence.
 
 ⸻
 
-4. Ledger — Context and Memory
+The Knowledge and Memory Model
 
-The Ledger preserves context.
+A central problem is distinguishing temporary conversation from durable learning.
 
-It records not merely isolated facts, but relationships between:
+Not everything said should become memory.
+
+Living Intelligence should progressively distinguish between:
+
+Conversation
+    ↓
+Observation
+    ↓
+Interpretation
+    ↓
+Hypothesis / Claim
+    ↓
+Human confirmation where needed
+    ↓
+Durable learning
+
+This creates an important epistemic boundary.
+
+The system should distinguish between:
+
+* what was explicitly observed or said
+* what the system reasonably infers
+* what remains uncertain
+* what is a hypothesis or claim
+* what a human has confirmed
+* what has become durable knowledge
+
+The system must not silently transform an inference into a fact merely because the inference was stored.
+
+⸻
+
+The Ledger
+
+The Ledger is the persistent relational memory of the system.
+
+It should preserve not merely isolated facts, but relationships between:
 
 * people
+* entities
 * events
+* conversations
 * decisions
+* commitments
 * actions
 * projects
+* goals
 * knowledge
+* opportunities
 * outcomes
 * time
 
@@ -184,57 +299,103 @@ This gives the system continuity.
 
 Instead of asking only:
 
-“What is true?”
+What is true?
 
-the system can also ask:
+it can ask:
 
-“What happened, who was involved, what did we decide, what happened afterward, and what did we learn?”
+What happened, who was involved, what did we believe, what did we decide, what happened afterward, and what did we learn?
 
-The Ledger is therefore the system’s persistent relational memory.
+The Ledger is therefore more than storage.
+
+It is a substrate for persistent context, accumulated history, relationship memory, feedback, learning, and adaptation.
 
 ⸻
 
-5. AI — Intelligence
+LIOS
 
-AI provides cognitive capabilities.
+LIOS provides the operational substrate for representing the world in which Living Intelligence operates.
+
+Its core concepts include:
+
+Entity
+Relationship
+Context
+Event
+Claim
+Goal
+
+These primitives provide a way to represent experience and its relational context without requiring an AI system to be the source of truth.
+
+Claims and Provenance
+
+Claims are particularly important because AI interpretation should remain distinguishable from verified reality.
+
+A useful pattern is:
+
+Observed Event
+      ↓
+AI Interpretation
+      ↓
+Claim / Hypothesis
+      ↓
+Evidence / Provenance
+      ↓
+Human Confirmation when required
+      ↓
+Learning
+
+AI can surface a possible pattern without being granted authority to silently convert that pattern into truth.
+
+This supports a fundamental principle of LIOS and Living Intelligence:
+
+AI is a participant in sensemaking, not the owner of reality.
+
+⸻
+
+AI — Intelligence
+
+AI provides cognitive capabilities inside the larger architecture.
 
 It can help:
 
 * interpret information
 * identify patterns
 * compare perspectives
-* generate possibilities
 * expose assumptions
+* generate possibilities
 * reason through problems
-* summarize knowledge
+* summarize and connect knowledge
+* diagnose conversational needs
 * explore scenarios
 * support decisions
+* identify commitments and opportunities
+* learn from accumulated context
 
-AI does not need to be the owner of the system.
+AI is not the system’s source of purpose.
 
-It is a cognitive capability inside the larger architecture.
+People provide purpose, values, judgment, responsibility, and accountability.
 
 ⸻
 
 Six Ways Intelligence Can Help
 
-AI can serve different cognitive roles.
+AI capabilities can be understood through six complementary metaphors.
 
 Mirror
 
-Reflects our thinking back to us.
+Reflects thinking back to us.
 
 Observatory
 
-Helps identify patterns and changes.
+Helps identify patterns, changes, and signals.
 
 Prism
 
-Shows multiple perspectives.
+Shows multiple perspectives on the same situation.
 
 Telescope
 
-Extends our view across greater distances of time, scale, and complexity.
+Extends our view across time, scale, and complexity.
 
 Compass
 
@@ -244,21 +405,21 @@ Garden
 
 Helps cultivate knowledge so that understanding can grow over time.
 
-These are not necessarily six different products.
+These are not necessarily six separate products.
 
-They are six ways of describing what intelligence can do for people.
+They are six modes of intelligence available within the system.
 
 ⸻
 
-6. Hermes — The Runtime
+Hermes — Runtime
 
-Hermes is what makes the system operational.
+Hermes connects intelligence to action.
 
 AI can recommend an action.
 
 Hermes helps make that action part of an ongoing process.
 
-Hermes connects:
+It can coordinate:
 
 * events
 * context
@@ -271,35 +432,37 @@ Hermes connects:
 * verification
 * feedback
 
-Its basic cycle is:
+Its operational cycle is:
 
 Notice → Understand → Activate → Execute → Verify → Record → Continue
 
 For example:
 
-A new event occurs.
+New event
+   ↓
+Notice
+   ↓
+Retrieve context
+   ↓
+Interpret
+   ↓
+Choose capability
+   ↓
+Execute
+   ↓
+Verify
+   ↓
+Record outcome
+   ↓
+Continue
 
-Hermes notices it.
+The distinction is important:
 
-It retrieves the relevant context.
-
-AI helps interpret the situation.
-
-An appropriate agent or tool is activated.
-
-An action occurs.
-
-The result is verified.
-
-The outcome is recorded.
-
-The system waits until something changes again.
-
-That is the difference between an AI that gives advice and an intelligence system that can participate in an ongoing process.
+AI provides cognitive capability. Hermes provides operational continuity.
 
 ⸻
 
-7. Agents and Tools — Capability
+Agents and Tools — Capability
 
 Specialized agents and software tools provide the ability to do things.
 
@@ -320,7 +483,7 @@ Tools allow those capabilities to interact with the outside world.
 
 Hermes coordinates them.
 
-AI helps reason about what they should do.
+AI helps reason about what they might do.
 
 The Ledger provides context.
 
@@ -328,193 +491,64 @@ Verification determines what actually happened.
 
 ⸻
 
-8. Verification — Reality Check
+Verification — Reality Check
 
 A critical part of the system is verification.
 
 The system should not assume that an intended action produced the desired result.
 
-It should ask:
+It should distinguish:
 
-What actually happened?
+Decision
+   ↓
+Intended Action
 
-This creates a distinction between:
+from:
 
-Decision → Intended Action
-
-and:
-
-Verified Outcome → Reality
+Actual Action
+   ↓
+Verified Outcome
 
 That distinction is essential for learning.
 
+Without verification, the system learns from intentions.
+
+With verification, it can learn from reality.
+
 ⸻
 
-9. Feedback — How the System Learns
+Feedback — How the System Learns
 
 Feedback closes the loop.
 
 The system compares:
 
 What we expected
-
-with:
-
-What actually happened.
+        vs.
+What actually happened
 
 The difference becomes information.
 
-That information changes future decisions.
-
-So feedback is not merely measurement.
-
-It is the mechanism through which the system learns and adapts.
-
-⸻
-
-The Whole System
-
-The simplest representation is:
-
-REAL WORLD
-
-↓
-
-Experience
-
-↓
-
-Fieldy
-
-Capture
-
-↓
-
-Ledger
-
-Context + Memory
-
-↓
-
-AI
-
-Understanding + Possibility
-
-↓
-
-Human Decision
-
-Judgment + Agency
-
-↓
-
-Hermes
-
-Runtime + Coordination
-
-↓
-
-Agents + Tools
-
-Execution
-
-↓
-
-Action
-
-↓
-
-Verification
-
-What actually happened?
-
-↓
-
-Feedback
-
-What did we learn?
-
-↓
-
-Ledger
-
-↓
-
-New Understanding
-
-↓
-
-Next Decision
-
-And the cycle continues.
-
-⸻
-
-Why “Living”?
-
-The system is called Living Intelligence because it behaves less like a database and more like a living learning process.
-
-It can:
-
-sense → wake → understand → act → observe → remember → learn → adapt → wait
-
-It does not have to run constantly.
-
-Agents can stop.
-
-Processes can sleep.
-
-Workers can start only when needed.
-
-The important thing is that context, state, relationships, decisions, pending work, outcomes, and learning persist.
-
-When something changes, the system can respond.
-
-⸻
-
-From Personal Intelligence to Community Intelligence
-
-Living Intelligence is not only about individuals.
-
-The same architecture can operate across multiple levels:
-
-Individual → Relationship → Community → Organization → Society → Civilization
-
-At the individual level, it can help someone think, learn, decide, and act.
-
-At the relationship level, it can preserve shared context.
-
-At the community level, it can help groups develop shared understanding and capabilities.
-
-At the organizational level, it can connect knowledge, decisions, projects, people, and execution.
-
-At the civilization level, it can help many autonomous participants learn and coordinate without requiring one centralized intelligence.
-
-This leads toward the idea of a:
-
-Planetary Intelligence Mesh
-
-A Planetary Intelligence Mesh would be a distributed network in which intelligence emerges across:
-
-* people
-* communities
-* organizations
-* institutions
-* AI agents
-* machines
-* knowledge systems
-
-The goal would not be to create one centralized superintelligence controlling everything.
-
-It would be to create many connected intelligence systems that can learn, cooperate, and adapt while retaining meaningful autonomy.
+That information can change:
+
+* future decisions
+* assumptions
+* knowledge
+* priorities
+* commitments
+* workflows
+* relationships
+* system behavior
+
+Feedback is therefore not merely measurement.
+
+Feedback is the mechanism through which the system learns and adapts.
 
 ⸻
 
 From Goals to Action
 
-The system also connects human purpose to practical work.
-
-The progression is:
+Living Intelligence connects human purpose to practical work:
 
 Goals → Work → Projects → Tasks → Actions → Outcomes → Feedback
 
@@ -532,19 +566,87 @@ Outcomes tell us what happened.
 
 Feedback teaches us what to change.
 
-This creates a bridge between what matters to us and what actually gets done.
+This creates a bridge between what matters and what actually gets done.
 
 ⸻
 
-Development Happens at Multiple Levels
+From Personal Intelligence to Community Intelligence
+
+The same architecture can operate across multiple levels:
+
+Individual
+    ↓
+Relationship
+    ↓
+Community
+    ↓
+Organization
+    ↓
+Society
+    ↓
+Civilization
+
+At the individual level, it can help someone think, learn, decide, and act.
+
+At the relationship level, it can preserve shared context.
+
+At the community level, it can help groups develop shared understanding and capabilities.
+
+At the organizational level, it can connect knowledge, decisions, projects, people, and execution.
+
+At larger scales, it can support many autonomous participants learning and coordinating without requiring a single centralized intelligence.
+
+⸻
+
+Planetary Intelligence Mesh
+
+A Planetary Intelligence Mesh would be a distributed network in which intelligence emerges across:
+
+* people
+* communities
+* organizations
+* institutions
+* AI agents
+* machines
+* knowledge systems
+
+The goal would not be one centralized intelligence controlling everything.
+
+It would be many connected intelligence systems that can learn, cooperate, and adapt while retaining meaningful autonomy.
+
+The architecture therefore moves from:
+
+Personal Intelligence
+        ↓
+Relational Intelligence
+        ↓
+Community Intelligence
+        ↓
+Organizational Intelligence
+        ↓
+Network Intelligence
+        ↓
+Planetary Intelligence
+
+⸻
+
+Developmental Architecture
 
 Living Intelligence is also developmental.
 
-A person must develop the ability to use intelligence well before a community can develop it collectively.
+The ability of a system to use intelligence well depends partly on the capabilities of the people and communities operating it.
 
-The developmental progression is:
+A working developmental progression is:
 
-Character → Human Operating System → Community World Model → Knowledge Structures → Living Intelligence
+Character
+    ↓
+Human Operating System
+    ↓
+Community World Model
+    ↓
+Knowledge Structures
+    ↓
+Living Intelligence
 
 Character
 
@@ -564,13 +666,13 @@ How is understanding organized, tested, remembered, transmitted, and improved?
 
 Living Intelligence
 
-How does the entire ecology sense, learn, adapt, act, and regenerate?
+How does the larger ecology sense, learn, adapt, act, and regenerate?
 
 ⸻
 
 The Freedom Principle
 
-There is one boundary that governs the entire architecture:
+One boundary governs the architecture:
 
 Intelligence should increase human agency, not quietly replace it.
 
@@ -580,13 +682,13 @@ Automation is useful.
 
 Optimization is useful.
 
-But they are not the ultimate goal.
+But none of these is the ultimate goal.
 
-The ultimate question is:
+The deeper question is:
 
 Does this system help people become more capable while remaining meaningfully free to decide what they value and how they live?
 
-The system should therefore support different levels of autonomy:
+The system can therefore support different levels of autonomy:
 
 Observe → Recommend → Execute → Approve → Escalate
 
@@ -596,13 +698,13 @@ Others require human approval.
 
 Some decisions should remain entirely human.
 
-The appropriate level depends on the consequences, uncertainty, and values involved.
+The appropriate boundary depends on consequences, uncertainty, reversibility, and values.
 
 ⸻
 
 The Ultimate Measure
 
-The deepest purpose of Living Intelligence can be expressed as:
+A useful test for the architecture is:
 
 Perception → Agency → Freedom → Contribution → Generativity
 
@@ -617,8 +719,6 @@ A successful system should help people:
 * contribute meaningfully
 * create conditions for others to flourish
 
-This gives us a test for the entire architecture.
-
 If technology makes people more capable and more free, it is moving in the right direction.
 
 If it makes people more capable but less autonomous, something has gone wrong.
@@ -627,28 +727,153 @@ If it optimizes people into systems they no longer control, it has failed its pu
 
 ⸻
 
+Repository Structure
+
+The repository is intentionally lightweight while the architecture is being explored.
+
+living-intelligence/
+├── README.md
+├── structures/
+├── knowledge/
+├── examples/
+└── skills/
+    └── living-intelligence/
+        ├── SKILL.md
+        └── references/
+
+The roles are:
+
+* README.md — the human-readable front door: what the project is and why it exists.
+* SKILL.md — the agent-facing operational layer: when and how an AI should use the practice.
+* knowledge/ — discoveries that emerge through experience.
+* structures/ — conversational interventions and facilitation patterns.
+* examples/ — concrete demonstrations of the system in use.
+
+The repository is therefore not only documentation.
+
+It can become part of the learning loop.
+
+⸻
+
+Working Principles
+
+1. Sense Before Acting
+
+Understand the situation before selecting an intervention or action.
+
+2. Preserve Context
+
+Information without relational and temporal context is often insufficient for intelligence.
+
+3. Distinguish Observation from Interpretation
+
+The system should make uncertainty visible rather than silently converting inference into fact.
+
+4. Keep Humans in the Loop Where Judgment Matters
+
+AI should expand human capability without assuming authority over human purpose.
+
+5. Verify Outcomes
+
+Do not confuse intended action with actual results.
+
+6. Learn From Reality
+
+Feed outcomes back into future understanding and action.
+
+7. Intervene Only When Useful
+
+A living intelligence should know when to act and when to remain silent.
+
+8. Let the Architecture Evolve
+
+The repository is a living experiment. Concepts should change when experience demonstrates that a better model is needed.
+
+⸻
+
+Current Questions
+
+The project remains intentionally exploratory.
+
+Important questions include:
+
+* What information should be preserved after a conversation?
+* What should AI extract automatically versus ask a human to confirm?
+* What is the minimum durable unit of Living Intelligence?
+* How should commitments, relationships, opportunities, outcomes, and learning be represented?
+* What belongs in durable knowledge versus temporary context?
+* How should knowledge be connected across conversations?
+* How should provenance and confidence be represented?
+* How should the system know when to intervene and when to stay silent?
+* How should action outcomes feed back into future learning?
+* How should the architecture work across individuals, relationships, communities, and organizations?
+* Which parts belong in LIOS, which belong in the Ledger, and which belong in runtime systems such as Hermes?
+
+These are design questions to be answered through implementation and experience, not only theory.
+
+⸻
+
+Development Philosophy
+
+The project should resist premature complexity.
+
+The objective is not to build the largest possible architecture before testing the basic hypothesis.
+
+The more useful progression is:
+
+Hypothesis
+    ↓
+Small implementation
+    ↓
+Real experience
+    ↓
+Observed outcome
+    ↓
+Learning
+    ↓
+Architecture revision
+    ↺
+
+This means the repository itself should remain a visible record of architectural learning.
+
+Build enough to test the idea.
+
+Capture what happens.
+
+Preserve what is learned.
+
+Revise the model.
+
+Repeat.
+
+⸻
+
+Status
+
+Early exploration / living draft
+
+The architecture is intentionally allowed to change as the practice becomes clearer.
+
+This repository should be treated as an evolving laboratory for the development of Living Intelligence and its underlying operational substrate.
+
+⸻
+
 The Simplest Possible Definition
 
 If someone asks:
 
-“What is Living Intelligence?”
+What is Living Intelligence?
 
-The simplest answer is:
+Living Intelligence is a human-centered system that connects experience, conversation, memory, AI, decision-making, action, and feedback so that people and communities can continuously learn and become more capable—without giving up human agency and freedom.
 
-Living Intelligence is a human-centered system that connects experience, memory, AI, decision-making, action, and feedback so that people and communities can continuously learn and become more capable—without giving up human agency and freedom.
+What is LIOS?
 
-And if they ask:
+LIOS is an operational substrate for representing entities, relationships, contexts, events, claims, goals, and other durable structures through which Living Intelligence can understand and navigate the world.
 
-“What is Hermes?”
+What is Hermes?
 
-The answer is:
+Hermes is the runtime that keeps intelligence connected to the real world, coordinating context, AI, agents, tools, actions, verification, and feedback over time.
 
-Hermes is the runtime that keeps that intelligence connected to the real world, coordinating context, AI, agents, tools, actions, verification, and feedback over time.
-
-And if they ask:
-
-“What is the point?”
-
-The answer is:
+What is the point?
 
 To help people see more clearly, choose more wisely, act more effectively, learn continuously, and create better conditions for themselves and others to flourish.
