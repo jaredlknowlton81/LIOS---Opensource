@@ -16,24 +16,7 @@ The current repository should therefore be understood as a living draft rather t
 
 Emerging organization
 
-As concepts become more stable and their roles become clearer, they can graduate from the exploratory root into more deliberate categories:
-
-repository/
-│
-├── structures/    # What the system is and how it is organized
-├── knowledge/     # What has been learned, understood, or established
-├── examples/      # Concrete applications and demonstrations
-├── skills/        # Repeatable methods and procedures
-│
-├── src/
-│   └── lios/      # LIOS implementation
-│
-├── docs/          # Supporting documentation
-├── tests/         # Tests and validation
-│
-├── CLAUDE.md
-├── AGENTS.md
-└── README.md
+As concepts become more stable and their roles become clearer, they can graduate from the exploratory root into more deliberate 
 
 These categories are not merely folders. They represent different stages and roles within the knowledge system:
 
